@@ -20,7 +20,7 @@ export const data = [
 
     {
         pregunta:
-            "La entrega de recursos como equipos de computo la realiza Jorge Hernando Grajales (TI)",
+            "La entrega de recursos como equipos de cómputo la realiza Jorge Hernando Grajales (TI)",
         opciones: ["VERDADERO", "FALSO"],
         respuesta: "VERDADERO",
     },
