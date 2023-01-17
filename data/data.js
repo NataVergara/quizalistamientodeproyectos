@@ -20,7 +20,7 @@ export const data = [
 
     {
         pregunta:
-            "La entrega de recursos 'oficina, transporte, etc' la realiza Jorge Hernando Grájales",
+            "La entrega de recursos 'oficina, transporte, etc' la realiza Jorge Hernando Grajales",
         opciones: ["VERDADERO", "FALSO"],
         respuesta: "VERDADERO",
     },
