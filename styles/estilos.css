@@ -281,7 +281,7 @@ body {
 
 #aplicativo:hover{
   cursor: pointer;
-  background-color: #F5A800 ;
+  background-color: #00A0DF ;
   font-weight: 500;
   
 }
@@ -293,7 +293,7 @@ body {
   align-items: center;
 }
 .footer {
-  margin-top: 150px;
+  margin-top: 80px;
   width: 20%;
   height: 20%;
   object-fit: cover;
@@ -311,7 +311,7 @@ body {
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   .footer{
-    margin-top: 45px;
+    margin-top: 45epx;
     width: 15%;
     
   }
