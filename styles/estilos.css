@@ -11,7 +11,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 80%;
+}
+@media screen and (min-width: 1200px) {
+  body{
+    width: 100%;
+    height: 100%;
+    
+  }
+  
 }
 
 #quiz{
@@ -21,6 +29,7 @@ body {
   align-items: center;
 }
 
+
 .encabezado {
  text-align: center;
   background-color: #00953b;
@@ -28,11 +37,25 @@ body {
   height: 10%;
   
 }
+@media screen and (min-width: 1200px) {
+  .encabezado{
+    height: 5%;
+  }
+  
+}
+
 
 .hashtag {
   font-weight: 400;
   color: white;
   padding: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hashtag{
+    padding: 2px;
+  }
+  
 }
 
 .vamos {
@@ -41,12 +64,31 @@ body {
   align-items: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .vamos{
+    width: 35%;
+    height: 34%;
+  }
+  
+}
+
+
 .enunciado {
   text-align: center;
   width: 1150px;
   padding: 50px;
   color: white;
   font-size: 40px;
+}
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  .enunciado{
+    width: 600px;
+    margin-top: 25px;
+    font-size: 35px;
+    padding: 20px;
+    
+  }
+  
 }
 
 .formulario {
@@ -62,12 +104,27 @@ body {
   
 }
 
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  .formulario{
+    width: 75vh;
+   
+  }
+  
+}
+
 #pregunta {
   
   font-size: 30px;
   color: #54565a;
   padding: 50px;
   text-align: center;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  #pregunta{
+    font-size: 25px;
+  }
+  
 }
 
 #opciones {
@@ -90,6 +147,20 @@ body {
   font-weight: 600;
 
 }
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  .button{
+    width: 75vh;
+   
+  }
+  
+}
+
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  .button{
+    font-size: 18px;
+  }
+  
+}
 
 #contenedor{
   display: flex;
@@ -104,16 +175,38 @@ body {
   border-radius: 23px;
 }
 
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  #contenedor{
+    width: 65vh;
+   
+    
+  }
+  
+}
+
 #score{
   margin: 0;
   padding-bottom: 25px;
   color: #76bc21;
   font-size: 40px;
 }
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  #score{
+    font-size: 30px;
+  }
+  
+}
 
 #mensaje{
   font-size: 30px;
   text-align: center;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1200px) {
+  #mensaje{
+    font-size: 24px;
+  }
+  
 }
 
 #aplicativo{
@@ -148,8 +241,26 @@ body {
   object-fit: cover;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer{
+    margin-top: 80px;
+    width: 25%;
+    
+  }
+  
+}
+@media screen and (min-width: 640px) and (max-width: 1200px){
+  .footer{
+    margin-top: 80px;
+    width: 40%;
+    
+  }
+  
+}
+
 .button:hover {
   cursor: pointer;
   background-color: #00A0DF ;
   color: white;
 }
+
