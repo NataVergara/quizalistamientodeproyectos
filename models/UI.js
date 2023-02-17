@@ -10,7 +10,7 @@ export class UI {
         const preguntaTitulo = document.getElementById("pregunta")
         preguntaTitulo.innerText = text;
     }
-
+  
     /**
      * 
      * @param {string[]} opciones 
