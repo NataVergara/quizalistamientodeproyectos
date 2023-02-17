@@ -33,7 +33,7 @@ body {
 .encabezado {
  text-align: center;
   background-color: #00953b;
-  width: 100%;
+  width: 200%;
   height: 10%;
   
 }
@@ -294,8 +294,8 @@ body {
 }
 .footer {
   margin-top: 80px;
-  width: 20%;
-  height: 20%;
+  width: 30%;
+  height: 30%;
   object-fit: cover;
 }
 
