@@ -54,7 +54,7 @@ export class UI {
     <a id="aplicativo" href="https://apps.powerapps.com/play/e/default-cb226876-cbb5-4d26-999f-3218c9679838/a/c8ff6b2d-58fd-47be-a5c2-c23ca610045e?tenantId=cb226876-cbb5-4d26-999f-3218c9679838">Ingresa aquí</a>
     </div>
     <footer class="logos">
-    <img class="footer" src="../img/logos.png" alt="logos Socya y CCO Systems">
+    <img class="footer" src="/img/logos.png" alt="logos Socya y CCO Systems">
     </footer>
 </div>
     `;
